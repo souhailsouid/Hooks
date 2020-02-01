@@ -1,0 +1,35 @@
+.header {
+  height: 6.25rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5625rem;
+  border-bottom: 1px solid black;
+
+  .logo {
+    height: 100%;
+    width: 6.25rem;
+    padding: 1.5625rem;
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      padding: 0.625rem 0.9375rem;
+      cursor: pointer;
+    }
+
+  }
+  
+  .option-shop:hover, .option-contact:hover{
+   background-color:rgba(208, 2, 27, 0.133);
+  }
+   .option-auth:hover  {
+    background-color:rgb(238, 238, 238);;
+  }
+}
